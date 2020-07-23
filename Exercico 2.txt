@@ -1,0 +1,15 @@
+0.21 R
+V NA
+"0" T
+"José" T
+0.35 R
+F NA
+-0.0001 R
+"abc" T
+"Maria" T
+"Maria Madalena" T
+-5 R
+"Maria Madalena Soares da Silva Souza" T
+? NA
+"?" T
+$ NA

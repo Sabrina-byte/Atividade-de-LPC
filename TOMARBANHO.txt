@@ -1,0 +1,29 @@
+Algoritmo "Tomarbanho"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Instruções para o robô tomar banho
+// Autor(a)    : Valter Francisco e Sabrina Ferreira
+// Data atual  : 18/02/2020
+Var
+// Seção de Declarações das variáveis 
+ligarChuveiro: logico
+
+Inicio
+//Espera-se que o robô seja a prova d'água, esteja vestido e saiba se limpar
+//toalha, registro, girar, direita e esquerda
+
+ligarChuveiro <- falso
+escreval ("Tirar a roupa.")
+escreval ("Girar o registro para ligar o chuveiro.")
+
+enquanto ligarChuveiro = falso faca
+      escreva ("O chuveiro está ligado? (Responda com VERDADEIRO ou FALSO)")
+      leia (ligarChuveiro)
+      se (ligarChuveiro = verdadeiro) então
+         escreval ("se molhar e se limpar")
+         escreval ("se enxugue com  a toalha")
+      senao
+         escreval  ("o chuveiro não está ligado")
+      fimse
+fimenquanto
+Fimalgoritmo
